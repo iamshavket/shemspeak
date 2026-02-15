@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ru" dir="ltr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&family=Playfair+Display:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
     <style>
         :root {
             --primary: #0F3D2E;
@@ -62,7 +65,7 @@
             letter-spacing: -0.5px;
             font-size: 52px;
         }
-        
+
         h2 {
             font-family: 'Montserrat', sans-serif;
             font-weight: 800;
@@ -70,8 +73,10 @@
             letter-spacing: -0.5px;
             font-size: 34px;
         }
-        
-        h3, h4, h5 {
+
+        h3,
+        h4,
+        h5 {
             font-family: 'Montserrat', sans-serif;
             font-weight: 800;
             line-height: 1.2;
@@ -119,7 +124,7 @@
             left: -100%;
             width: 100%;
             height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
             transition: 0.5s;
             z-index: -1;
         }
@@ -190,20 +195,20 @@
         .logo:hover {
             transform: scale(1.02);
         }
-        
+
         .logo-icon-image {
             height: 50px;
             width: auto;
             object-fit: contain;
             flex-shrink: 0;
         }
-        
+
         .logo-content {
             display: flex;
             flex-direction: column;
             line-height: 1.2;
         }
-        
+
         .logo-text {
             font-family: 'Montserrat', sans-serif;
             font-weight: 900;
@@ -214,22 +219,22 @@
             flex-wrap: wrap;
             gap: 4px;
         }
-        
+
         .logo-shem {
             color: #A6FF00;
         }
-        
+
         .logo-speak {
             color: #FFFFFF;
         }
-        
+
         .logo-online {
             color: #FFFFFF;
             font-size: 20px;
             font-weight: 600;
             margin-left: 4px;
         }
-        
+
         .logo-tm {
             font-size: 14px;
             background: #A6FF00;
@@ -239,7 +244,7 @@
             margin-left: 6px;
             font-weight: 700;
         }
-        
+
         .logo-tagline {
             font-family: 'Inter', sans-serif;
             font-size: 14px;
@@ -262,8 +267,15 @@
         }
 
         @keyframes float {
-            0%, 100% { transform: translateY(0); }
-            50% { transform: translateY(-10px); }
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-10px);
+            }
         }
 
         .logo-icon:after {
@@ -289,9 +301,17 @@
         }
 
         @keyframes pulse {
-            0% { transform: scale(1); }
-            50% { transform: scale(1.1); }
-            100% { transform: scale(1); }
+            0% {
+                transform: scale(1);
+            }
+
+            50% {
+                transform: scale(1.1);
+            }
+
+            100% {
+                transform: scale(1);
+            }
         }
 
 
@@ -302,14 +322,14 @@
             flex: 1;
             justify-content: flex-end;
         }
-        
+
         nav .btn-accent {
             padding: 12px 24px;
             font-size: 15px;
             white-space: nowrap;
             min-width: auto;
         }
-        
+
         nav .btn-accent span {
             display: inline;
         }
@@ -388,7 +408,7 @@
             object-fit: cover;
             display: block;
         }
-        
+
         .language-current i.fa-chevron-down {
             color: var(--accent);
             font-size: 12px;
@@ -430,7 +450,7 @@
         .language-option {
             color: var(--white);
         }
-        
+
         .language-option .flag-icon {
             width: 24px;
             height: 18px;
@@ -438,7 +458,7 @@
             object-fit: cover;
             display: block;
         }
-        
+
         .language-option:hover {
             background-color: rgba(166, 255, 0, 0.1);
         }
@@ -456,7 +476,7 @@
         .mobile-menu-btn:hover {
             color: var(--accent);
         }
-        
+
         .mobile-menu-btn.active {
             color: var(--accent);
         }
@@ -647,13 +667,13 @@
         .floating-text h4 {
             color: var(--primary);
         }
-        
+
         .floating-text p {
             font-size: 16px;
             color: var(--gray);
             margin: 0;
         }
-        
+
         .floating-element:nth-child(2) .floating-text p,
         .floating-element:nth-child(3) .floating-text p {
             color: #A6FF00;
@@ -763,7 +783,7 @@
             background: var(--accent);
             overflow: hidden;
         }
-        
+
         .language-flag .flag-image {
             width: 100%;
             height: 100%;
@@ -815,7 +835,7 @@
             color: var(--white);
             font-size: 17px;
         }
-        
+
         .language-features li i {
             color: var(--accent);
             margin-right: 15px;
@@ -860,12 +880,12 @@
             text-align: center;
             box-sizing: border-box;
         }
-        
+
         .calculator-content h3 {
             color: var(--white);
             font-size: 34px;
         }
-        
+
         .calculator-content p {
             color: var(--gray);
             font-size: 17px;
@@ -887,7 +907,7 @@
             max-width: 100%;
             box-sizing: border-box;
         }
-        
+
         .form-group label {
             white-space: normal;
             word-wrap: break-word;
@@ -906,7 +926,8 @@
             font-size: 17px;
         }
 
-        .custom-select, .custom-input {
+        .custom-select,
+        .custom-input {
             width: 100%;
             max-width: 100%;
             padding: 18px 45px 18px 20px;
@@ -927,33 +948,34 @@
             overflow: hidden;
             text-overflow: ellipsis;
         }
-        
+
         .custom-select option {
             background-color: var(--primary);
             color: var(--white);
             padding: 10px;
             white-space: normal;
         }
-        
+
         .custom-select option {
             background-color: var(--primary);
             color: var(--white);
             padding: 10px;
         }
 
-        .custom-select:focus, .custom-input:focus {
+        .custom-select:focus,
+        .custom-input:focus {
             outline: none;
             border-color: var(--accent);
             box-shadow: 0 0 0 3px rgba(166, 255, 0, 0.1);
             background-color: rgba(255, 255, 255, 0.15);
         }
-        
+
         .custom-select {
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
         }
-        
+
         .custom-select option {
             white-space: normal;
             word-wrap: break-word;
@@ -1039,7 +1061,7 @@
             margin-bottom: 15px;
             color: var(--white);
         }
-        
+
         .feature-card p {
             color: var(--gray);
             font-size: 17px;
@@ -1171,11 +1193,11 @@
             color: var(--white);
             border-color: rgba(166, 255, 0, 0.3);
         }
-        
+
         .form-control::placeholder {
             color: var(--gray);
         }
-        
+
         .form-control:focus {
             outline: none;
             border-color: var(--accent);
@@ -1186,6 +1208,23 @@
         textarea.form-control {
             min-height: 150px;
             resize: vertical;
+        }
+
+        /* Выбор языка в форме «Свяжитесь с нами» — тёмная тема */
+        .contact-form select.form-control {
+            cursor: pointer;
+            appearance: none;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%23a6ff00' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+            background-repeat: no-repeat;
+            background-position: right 18px center;
+            padding-right: 44px;
+        }
+
+        .contact-form select.form-control option {
+            background: var(--primary);
+            color: var(--white);
         }
 
         /* CTA */
@@ -1251,24 +1290,24 @@
             color: white;
             padding: 80px 0 30px;
         }
-        
+
         .footer-logo {
             margin-bottom: 25px;
             margin-right: 0 !important;
         }
-        
+
         footer .logo-icon-image {
             height: 50px;
         }
-        
+
         footer .logo-text {
             font-size: 26px;
         }
-        
+
         footer .logo-online {
             font-size: 20px;
         }
-        
+
         footer .logo-tagline {
             font-size: 14px;
         }
@@ -1382,8 +1421,13 @@
 
         /* Animations */
         @keyframes fadeIn {
-            from { opacity: 0; }
-            to { opacity: 1; }
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
         }
 
         @keyframes fadeInUp {
@@ -1391,6 +1435,7 @@
                 opacity: 0;
                 transform: translateY(50px);
             }
+
             to {
                 opacity: 1;
                 transform: translateY(0);
@@ -1413,11 +1458,11 @@
             .hero-container {
                 gap: 40px;
             }
-            
+
             .hero h1 {
                 font-size: 48px;
             }
-            
+
             .section {
                 padding: 100px 0;
             }
@@ -1428,65 +1473,66 @@
                 grid-template-columns: 1fr;
                 text-align: center;
             }
-            
+
             .hero-content {
                 order: 2;
             }
-            
+
             .hero-image {
                 order: 1;
                 max-width: 600px;
                 margin: 0 auto;
             }
-            
+
             .hero h1 {
                 font-size: 42px;
             }
-            
+
             .hero p {
                 margin-left: auto;
                 margin-right: auto;
             }
-            
+
             .hero-buttons {
                 justify-content: center;
             }
-            
+
             .logo {
                 margin-right: 20px;
             }
-            
+
             nav {
                 gap: 20px;
             }
-            
+
             nav .btn-accent {
                 padding: 11px 22px;
                 font-size: 14px;
             }
-            
+
             .nav-links {
                 display: none;
             }
-            
+
             .mobile-menu-btn {
                 display: block;
             }
-            
+
             /* Hide nav by default on mobile, show when active */
             nav {
                 display: none !important;
             }
-            
+
             nav.active {
                 display: flex !important;
             }
-            
+
             .contact-container {
                 grid-template-columns: 1fr;
             }
-            
-            .contact-info, .contact-form {
+
+            .contact-info,
+            .contact-form {
                 padding: 50px 40px;
             }
         }
@@ -1496,88 +1542,88 @@
                 flex-wrap: wrap;
                 gap: 15px;
             }
-            
+
             .logo {
                 margin-right: 0;
                 flex: 1;
                 min-width: 0;
             }
-            
+
             .logo-icon-image {
                 height: 40px;
             }
-            
+
             .logo-text {
                 font-size: 20px;
             }
-            
+
             .logo-online {
                 font-size: 16px;
             }
-            
+
             .logo-tagline {
                 font-size: 11px;
             }
-            
+
             nav {
                 width: 100%;
                 justify-content: space-between;
                 order: 3;
                 margin-top: 10px;
             }
-            
+
             nav .btn-accent {
                 padding: 10px 18px;
                 font-size: 13px;
             }
-            
+
             .language-switcher {
                 order: 2;
             }
-            
+
             .hero {
                 padding: 150px 0 80px;
             }
-            
+
             .hero h1 {
                 font-size: 36px;
             }
-            
+
             .section {
                 padding: 80px 0;
             }
-            
+
             .section-title h2 {
                 font-size: 36px;
             }
-            
+
             .languages-grid {
                 grid-template-columns: 1fr;
             }
-            
+
             .calculator-section {
                 padding: 40px 30px;
             }
-            
+
             .form-row {
                 grid-template-columns: 1fr;
             }
-            
+
             .stats {
                 grid-template-columns: 1fr;
                 gap: 20px;
             }
-            
+
             .copyright {
                 flex-direction: column;
                 text-align: center;
                 gap: 15px;
             }
-            
+
             .copyright-links a {
                 margin: 0 10px;
             }
-            
+
             .floating-element {
                 position: relative;
                 top: auto;
@@ -1588,23 +1634,23 @@
                 width: 100%;
                 animation: none;
             }
-            
+
             .hero-image-content:hover img {
                 transform: none;
             }
-            
+
             footer .logo-icon-image {
                 height: 40px;
             }
-            
+
             footer .logo-text {
                 font-size: 22px;
             }
-            
+
             footer .logo-online {
                 font-size: 18px;
             }
-            
+
             footer .logo-tagline {
                 font-size: 12px;
             }
@@ -1615,88 +1661,88 @@
                 grid-template-columns: repeat(2, 1fr);
                 gap: 20px;
             }
-            
+
             .calculator-content {
                 max-width: 100%;
             }
         }
-        
+
         @media (max-width: 768px) {
             .logo-icon-image {
                 height: 40px;
             }
-            
+
             .logo-text {
                 font-size: 22px;
             }
-            
+
             .logo-online {
                 font-size: 18px;
             }
-            
+
             .logo-tagline {
                 font-size: 12px;
             }
-            
+
             .calculator-form {
                 grid-template-columns: 1fr;
                 gap: 20px;
             }
-            
+
             .calculator-section {
                 padding: 50px 30px;
             }
-            
+
             .calculator-content h3 {
                 font-size: 28px;
             }
-            
+
             .form-group label {
                 font-size: 16px;
             }
         }
-        
+
         @media (max-width: 576px) {
             .container {
                 padding: 0 20px;
             }
-            
+
             header {
                 padding: 12px 0;
             }
-            
+
             .header-container {
                 flex-wrap: wrap;
                 gap: 10px;
             }
-            
+
             .logo {
                 margin-right: 0;
                 flex: 1 1 100%;
                 order: 1;
             }
-            
+
             .logo-icon-image {
                 height: 35px;
             }
-            
+
             .logo-text {
                 font-size: 18px;
             }
-            
+
             .logo-online {
                 font-size: 14px;
             }
-            
+
             .logo-tagline {
                 font-size: 10px;
                 display: none;
             }
-            
+
             .mobile-menu-btn {
                 order: 2;
             }
-            
+
             nav {
                 width: 100%;
                 order: 4;
@@ -1709,111 +1755,113 @@
                 border-radius: 12px;
                 box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
             }
-            
+
             nav.active {
                 display: flex;
             }
-            
+
             .nav-links {
                 flex-direction: column;
                 width: 100%;
                 gap: 15px;
                 display: flex !important;
             }
-            
+
             .nav-links a {
                 padding: 12px 0;
                 text-align: center;
                 border-bottom: 1px solid rgba(166, 255, 0, 0.1);
             }
-            
+
             nav .btn-accent {
                 width: 100%;
                 padding: 12px 20px;
                 font-size: 14px;
                 justify-content: center;
             }
-            
+
             .language-switcher {
                 order: 3;
                 width: 100%;
             }
-            
+
             .language-switcher .language-current {
                 width: 100%;
                 justify-content: center;
             }
-            
+
             .language-dropdown {
                 width: 100%;
                 right: 0;
             }
-            
+
             .hero {
                 padding: 120px 0 60px;
             }
-            
+
             .hero h1 {
                 font-size: 32px;
             }
-            
+
             .btn {
                 padding: 16px 28px;
                 width: 100%;
             }
-            
+
             .hero-buttons {
                 flex-direction: column;
             }
-            
+
             .calculator-form {
                 grid-template-columns: 1fr;
                 gap: 15px;
             }
-            
+
             .form-group {
                 min-width: 100%;
             }
-            
+
             .calculator-section {
                 padding: 40px 20px;
             }
-            
+
             .calculator-content h3 {
                 font-size: 24px;
             }
-            
+
             .calculator-content p {
                 font-size: 16px;
             }
-            
-            .custom-select, .custom-input {
+
+            .custom-select,
+            .custom-input {
                 padding: 16px 40px 16px 15px;
                 font-size: 16px;
             }
-            
+
             .newsletter-form {
                 flex-direction: column;
             }
-            
+
             footer .logo-icon-image {
                 height: 35px;
             }
-            
+
             footer .logo-text {
                 font-size: 20px;
             }
-            
+
             footer .logo-online {
                 font-size: 16px;
             }
-            
+
             footer .logo-tagline {
                 font-size: 11px;
             }
         }
     </style>
 </head>
+
 <body>
     <!-- Header -->
     <header id="header">
@@ -1826,14 +1874,14 @@
                         <span class="logo-online">Online Learning</span>
                         <span class="logo-tm">TM</span>
                     </div>
-                    <div class="logo-tagline">Speed. Speech. Success</div>
+                    <div class="logo-tagline" id="logoTagline">Speed. Speech. Success</div>
                 </div>
             </a>
-            
+
             <div class="mobile-menu-btn" id="mobileMenuBtn">
                 <i class="fas fa-bars"></i>
             </div>
-            
+
             <nav>
                 <div class="nav-links" id="navLinks">
                     <a href="#languages" class="active">Курсы</a>
@@ -1841,7 +1889,7 @@
                     <a href="#features">Преимущества</a>
                     <a href="#contact">Контакты</a>
                 </div>
-                
+
                 <div class="language-switcher" id="languageSwitcher">
                     <div class="language-current">
                         <img src="src/ru.png" alt="Русский" class="flag-icon" id="currentFlag">
@@ -1863,7 +1911,7 @@
                         </div>
                     </div>
                 </div>
-                
+
                 <a href="#trial" class="btn btn-accent">
                     <i class="fas fa-calendar-check"></i>
                     <span>Бесплатный урок</span>
@@ -1876,58 +1924,61 @@
     <section class="hero" id="home">
         <div class="container hero-container">
             <div class="hero-content">
-               
-                <h1>Заговори свободно <span class="highlight">уже через 3 месяца</span></h1>
-                <p>Разговорные курсы английского, немецкого и русского с носителями и местными преподавателями. 100% практика, гибкое расписание.</p>
-                
+
+                <h1 id="heroTitle">Заговори свободно <span class="highlight">уже через 3 месяца</span></h1>
+                <p id="heroDesc">Разговорные курсы английского, немецкого и русского с носителями и местными
+                    преподавателями. 100%
+                    практика, гибкое расписание.</p>
+
                 <div class="hero-buttons">
-                    <a href="#trial" class="btn">
+                    <a href="#trial" class="btn" id="heroStartBtn">
                         <i class="fas fa-play-circle"></i>
                         Начать бесплатно
                     </a>
-                    <a href="#courses" class="btn btn-outline">
+                    <a href="#courses" class="btn btn-outline" id="heroCoursesBtn">
                         <i class="fas fa-book-open"></i>
                         Смотреть курсы
                     </a>
                 </div>
-                
+
                 <div class="stats">
                     <div class="stat-item">
                         <div class="stat-number">32+</div>
-                        <div class="stat-text">учеников заговорили</div>
+                        <div class="stat-text" id="statStudents">учеников заговорили</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">24/7</div>
-                        <div class="stat-text">поддержка в WhatsApp</div>
+                        <div class="stat-text" id="statSupport">поддержка в WhatsApp</div>
                     </div>
                     <div class="stat-item">
                         <div class="stat-number">98%</div>
-                        <div class="stat-text">довольных студентов</div>
+                        <div class="stat-text" id="statSatisfied">довольных студентов</div>
                     </div>
                 </div>
             </div>
-            
+
             <div class="hero-image">
                 <div class="hero-image-content">
-                    <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Изучение языков в ShemSpeak Online Learning TM">
-                    
+                    <img src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80"
+                        alt="Изучение языков в ShemSpeak Online Learning TM">
+
                     <div class="floating-element">
                         <div class="floating-icon">
                             <i class="fas fa-microphone-alt"></i>
                         </div>
                         <div class="floating-text">
-                            <h4>100% разговор</h4>
-                            <p style="color: #3c5a06;">Практика с первого урока</p>
+                            <h4 id="float1Title">100% разговор</h4>
+                            <p id="float1Desc" style="color: #3c5a06;">Практика с первого урока</p>
                         </div>
                     </div>
-                    
+
                     <div class="floating-element">
                         <div class="floating-icon">
                             <i class="fas fa-users"></i>
                         </div>
                         <div class="floating-text">
-                            <h4>Носители языка</h4>
-                            <p style="color: #3c5a06;">Из США, Германии, России</p>
+                            <h4 id="float2Title">Носители языка</h4>
+                            <p id="float2Desc" style="color: #3c5a06;">Из США, Германии, России</p>
                         </div>
                     </div>
                 </div>
@@ -1939,11 +1990,13 @@
     <section class="section" id="languages">
         <div class="container">
             <div class="section-title">
-                <div class="subtitle">Выбери свой язык</div>
-                <h2>Начни говорить свободно на любом языке</h2>
-                <p>Мы специализируемся на разговорной практике. Не просто грамматика, а живое общение с первого урока.</p>
+                <div class="subtitle" id="languagesSubtitle">Выбери свой язык</div>
+                <h2 id="languagesTitle">Начни говорить свободно на любом языке</h2>
+                <p id="languagesDesc">Мы специализируемся на разговорной практике. Не просто грамматика, а живое общение
+                    с первого урока.
+                </p>
             </div>
-            
+
             <div class="languages-grid">
                 <!-- English Card -->
                 <div class="language-card en animate">
@@ -1952,24 +2005,24 @@
                             <img src="src/eng.png" alt="Английский" class="flag-image">
                         </div>
                         <div>
-                            <h3>Английский язык</h3>
-                            <p>Для работы, путешествий и общения</p>
+                            <h3 id="enCardTitle">Английский язык</h3>
+                            <p id="enCardSubtitle">Для работы, путешествий и общения</p>
                         </div>
                     </div>
-                    
+
                     <ul class="language-features">
                         <li><i class="fas fa-check"></i> Уровни: от A1 до C2</li>
                         <li><i class="fas fa-check"></i> Носители из США и Великобритании</li>
                         <li><i class="fas fa-check"></i> Business English и подготовка к IELTS</li>
                         <li><i class="fas fa-check"></i> Современный живой язык</li>
                     </ul>
-                    
-                    <a href="#trial" class="btn btn-accent" style="margin-top: auto;">
+
+                    <a href="#trial" class="btn btn-accent" id="enCardBtn" style="margin-top: auto;">
                         <i class="fas fa-play"></i>
                         Начать учить
                     </a>
                 </div>
-                
+
                 <!-- German Card -->
                 <div class="language-card de animate">
                     <div class="language-header">
@@ -1977,24 +2030,24 @@
                             <img src="src/german.png" alt="Немецкий" class="flag-image">
                         </div>
                         <div>
-                            <h3>Немецкий язык</h3>
-                            <p>Для учёбы и работы в Германии</p>
+                            <h3 id="deCardTitle">Немецкий язык</h3>
+                            <p id="deCardSubtitle">Для учёбы и работы в Германии</p>
                         </div>
                     </div>
-                    
+
                     <ul class="language-features">
                         <li><i class="fas fa-check"></i> Уровни: от A1 до B2+</li>
                         <li><i class="fas fa-check"></i> Преподаватели из Германии</li>
                         <li><i class="fas fa-check"></i> Подготовка к Goethe-Zertifikat</li>
                         <li><i class="fas fa-check"></i> Немецкий для IT-специалистов</li>
                     </ul>
-                    
-                    <a href="#trial" class="btn btn-accent" style="margin-top: auto;">
+
+                    <a href="#trial" class="btn btn-accent" id="deCardBtn" style="margin-top: auto;">
                         <i class="fas fa-play"></i>
                         Начать учить
                     </a>
                 </div>
-                
+
                 <!-- Russian Card -->
                 <div class="language-card ru animate">
                     <div class="language-header">
@@ -2002,19 +2055,19 @@
                             <img src="src/ru.png" alt="Русский" class="flag-image">
                         </div>
                         <div>
-                            <h3>Русский язык</h3>
-                            <p>Для работы, путешествий и общения</p>
+                            <h3 id="ruCardTitle">Русский язык</h3>
+                            <p id="ruCardSubtitle">Для работы, путешествий и общения</p>
                         </div>
                     </div>
-                    
+
                     <ul class="language-features">
                         <li><i class="fas fa-check"></i> Уровни: от 0 до C1</li>
                         <li><i class="fas fa-check"></i> Фокус на разговорной практике</li>
                         <li><i class="fas fa-check"></i> Русский для бизнеса и общения</li>
                         <li><i class="fas fa-check"></i> Подготовка к ТРКИ</li>
                     </ul>
-                    
-                    <a href="#trial" class="btn btn-accent" style="margin-top: auto;">
+
+                    <a href="#trial" class="btn btn-accent" id="ruCardBtn" style="margin-top: auto;">
                         <i class="fas fa-play"></i>
                         Начать учить
                     </a>
@@ -2027,28 +2080,32 @@
     <section class="section" id="calculator">
         <div class="container">
             <div class="section-title animate">
-                <div class="subtitle">Персональный расчёт</div>
-                <h2>Калькулятор прогресса</h2>
-                <p>Ответьте на 3 вопроса и узнайте, когда вы заговорите свободно</p>
+                <div class="subtitle" id="calcSubtitle">Персональный расчёт</div>
+                <h2 id="calcTitle">Калькулятор прогресса</h2>
+                <p id="calcDesc">Ответьте на 3 вопроса и узнайте, когда вы заговорите свободно</p>
             </div>
-            
+
             <div class="calculator-section">
                 <div class="calculator-content animate">
-                    <h3 style="font-size: 34px; margin-bottom: 15px; color: var(--white);">Рассчитайте свой прогресс</h3>
-                    <p style="font-size: 17px; color: var(--gray); margin-bottom: 40px;">Выберите язык, ваш текущий уровень и цель обучения</p>
-                    
+                    <h3 id="calcHeading" style="font-size: 34px; margin-bottom: 15px; color: var(--white);">Рассчитайте
+                        свой прогресс
+                    </h3>
+                    <p id="calcSubheading" style="font-size: 17px; color: var(--gray); margin-bottom: 40px;">Выберите
+                        язык, ваш текущий
+                        уровень и цель обучения</p>
+
                     <div class="calculator-form">
                         <div class="form-group">
-                            <label for="language-select">Какой язык хотите изучать?</label>
+                            <label for="language-select" id="calcLangLabel">Какой язык хотите изучать?</label>
                             <select class="custom-select" id="language-select">
                                 <option value="en">Английский язык</option>
                                 <option value="de">Немецкий язык</option>
                                 <option value="ru">Русский язык</option>
                             </select>
                         </div>
-                        
+
                         <div class="form-group">
-                            <label for="level-select">Ваш текущий уровень?</label>
+                            <label for="level-select" id="calcLevelLabel">Ваш текущий уровень?</label>
                             <select class="custom-select" id="level-select">
                                 <option value="beginner">Начинающий (A1)</option>
                                 <option value="elementary">Элементарный (A2)</option>
@@ -2056,9 +2113,9 @@
                                 <option value="upper">Выше среднего (B2)</option>
                             </select>
                         </div>
-                        
+
                         <div class="form-group">
-                            <label for="goal-select">Ваша цель?</label>
+                            <label for="goal-select" id="calcGoalLabel">Ваша цель?</label>
                             <select class="custom-select" id="goal-select">
                                 <option value="travel">Путешествия</option>
                                 <option value="work">Работа</option>
@@ -2067,21 +2124,25 @@
                             </select>
                         </div>
                     </div>
-                    
+
                     <button class="btn" id="calculateBtn">
                         <i class="fas fa-calculator"></i>
                         Рассчитать мой прогресс
                     </button>
-                    
+
                     <div class="calculator-result" id="calculatorResult" style="display: none;">
                         <div class="result-icon">
                             <i class="fas fa-trophy"></i>
                         </div>
-                        <h3>Ваш персональный план</h3>
-                        <p>Для достижения цели <span style="font-weight: 700; color: var(--accent);">путешествий</span> на уровне <span style="font-weight: 700; color: var(--accent);">A1</span> по <span style="font-weight: 700; color: var(--accent);">английскому</span> языку:</p>
+                        <h3 id="calcResultHeading">Ваш персональный план</h3>
+                        <p id="calcResultPara">Для достижения цели <span
+                                style="font-weight: 700; color: var(--accent);">путешествий</span>
+                            на уровне <span style="font-weight: 700; color: var(--accent);">A1</span> по <span
+                                style="font-weight: 700; color: var(--accent);">английскому</span> языку:</p>
                         <div class="result-value" id="resultValue">3 месяца</div>
-                        <p>при занятиях 3 раза в неделю по 60 минут с преподавателем ShemSpeak Online Learning TM</p>
-                        <a href="#trial" class="btn btn-accent" style="margin-top: 30px;">
+                        <p id="calcResultDuration">при занятиях 3 раза в неделю по 60 минут с преподавателем ShemSpeak
+                            Online Learning TM</p>
+                        <a href="#trial" class="btn btn-accent" id="calcResultBtn" style="margin-top: 30px;">
                             <i class="fas fa-rocket"></i>
                             Начать обучение
                         </a>
@@ -2095,11 +2156,11 @@
     <section class="section" id="features">
         <div class="container">
             <div class="section-title animate">
-                <div class="subtitle">Наши преимущества</div>
-                <h2>Почему выбирают ShemSpeak Online Learning TM</h2>
-                <p>Мы создали идеальные условия для быстрого и эффективного изучения языков</p>
+                <div class="subtitle" id="featuresSubtitle">Наши преимущества</div>
+                <h2 id="featuresTitle">Почему выбирают ShemSpeak Online Learning TM</h2>
+                <p id="featuresDescription">Мы создали идеальные условия для быстрого и эффективного изучения языков</p>
             </div>
-            
+
             <div class="features-grid">
                 <div class="feature-card animate">
                     <div class="feature-icon">
@@ -2108,7 +2169,7 @@
                     <h3>100% разговорная практика</h3>
                     <p>80% урока - это живое общение. Говорите с первого занятия, даже если знаете только 10 слов.</p>
                 </div>
-                
+
                 <div class="feature-card animate">
                     <div class="feature-icon">
                         <i class="fas fa-users"></i>
@@ -2116,7 +2177,7 @@
                     <h3>Носители + местные преподаватели</h3>
                     <p>Комбинация дает лучший результат: понимание менталитета + идеальное произношение.</p>
                 </div>
-                
+
                 <div class="feature-card animate">
                     <div class="feature-icon">
                         <i class="fas fa-calendar-alt"></i>
@@ -2124,7 +2185,13 @@
                     <h3>Гибкое расписание</h3>
                     <p>Занимайтесь утром, днем или вечером. Подберем время под ваш ритм жизни.</p>
                 </div>
-                
+                <div class="feature-card animate">
+                    <div class="feature-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>Гарантия результата</h3>
+                    <p>Если не заговорите за 3 месяца — вернём деньги или добавим бесплатные уроки.</p>
+                </div>
             </div>
         </div>
     </section>
@@ -2133,88 +2200,93 @@
     <section class="section" id="contact">
         <div class="container">
             <div class="section-title animate">
-                <div class="subtitle">Свяжитесь с нами</div>
-                <h2>Контакты</h2>
-                <p>Мы всегда рады помочь вам начать путь к свободному владению языком</p>
+                <div class="subtitle" id="contactSubtitle">Свяжитесь с нами</div>
+                <h2 id="contactTitle">Контакты</h2>
+                <p id="contactDescription">Мы всегда рады помочь вам начать путь к свободному владению языком</p>
             </div>
-            
+
             <div class="contact-section animate">
                 <div class="contact-container">
                     <div class="contact-info">
-                        <h2>Свяжитесь с нами</h2>
-                        <p>Есть вопросы? Хотите записаться на пробный урок? Мы всегда на связи!</p>
-                        
+                        <h2 id="contactInfoHeading">Свяжитесь с нами</h2>
+                        <p id="contactInfoSubheading">Есть вопросы? Хотите записаться на пробный урок? Мы всегда на
+                            связи!</p>
+
                         <ul class="contact-details">
                             <li>
                                 <i class="fas fa-map-marker-alt"></i>
                                 <div>
-                                    <h4>Адрес</h4>
-                                    <p>Туркменистан, г. Туркменабад</p>
+                                    <h4 id="addressTitle">Адрес</h4>
+                                    <p id="addressText">Туркменистан, г. Туркменабад</p>
                                 </div>
                             </li>
                             <li>
                                 <i class="fab fa-instagram"></i>
                                 <div>
-                                    <h4>Instagram</h4>
-                                    <p>shemspeak</p>
+                                    <h4 id="instagramTitle">Instagram</h4>
+                                    <p id="instagramText">shemspeak</p>
                                 </div>
                             </li>
                             <li>
                                 <i class="fab fa-whatsapp"></i>
                                 <div>
-                                    <h4>WhatsApp</h4>
-                                    <p>+99362430662</p>
-                                    <p>+99363235874</p>
+                                    <h4 id="whatsappTitle">WhatsApp</h4>
+                                    <p id="whatsappText1">+99362430662</p>
+                                    <p id="whatsappText2">+99363235874</p>
                                 </div>
                             </li>
                             <li>
                                 <i class="fas fa-envelope"></i>
                                 <div>
-                                    <h4>Email</h4>
-                                    <p>infoshemspeak@gmail.com</p>
+                                    <h4 id="emailTitle">Email</h4>
+                                    <p id="emailText">infoshemspeak@gmail.com</p>
                                 </div>
                             </li>
                             <li>
                                 <i class="fas fa-clock"></i>
                                 <div>
-                                    <h4>Время работы</h4>
-                                    <p>Пн-Сб: 9:00 - 21:00<br>Вс: 10:00 - 18:00</p>
+                                    <h4 id="hoursTitle">Время работы</h4>
+                                    <p id="hoursText">Пн-Сб: 9:00 - 21:00<br>Вс: 10:00 - 18:00</p>
                                 </div>
                             </li>
                         </ul>
-                        
+
                         <div class="contact-social">
                             <a href="https://wa.me/99362430662" target="_blank"><i class="fab fa-whatsapp"></i></a>
-                            <a href="https://instagram.com/shemspeak" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="https://instagram.com/shemspeak" target="_blank"><i
+                                    class="fab fa-instagram"></i></a>
                         </div>
                     </div>
-                    
+
                     <div class="contact-form">
-                        <h3>Свяжитесь с нами</h3>
-                        <p>Заполните форму, и мы свяжемся с вами в течение 30 минут</p>
-                        
+                        <h3 id="contactFormHeading">Свяжитесь с нами</h3>
+                        <p id="contactFormSubheading">Заполните форму, и мы свяжемся с вами в течение 30 минут</p>
+
                         <form id="contactForm">
                             <div class="form-row">
-                                <input type="text" class="form-control" placeholder="Ваше имя" required>
-                                <input type="tel" class="form-control" placeholder="Телефон" required>
+                                <input type="text" name="name" class="form-control" placeholder="Ваше имя" required>
+                                <input type="tel" name="phone" class="form-control" placeholder="Телефон" required>
                             </div>
-                            
-                            <input type="email" class="form-control" placeholder="Email" style="margin-bottom: 20px;" required>
-                            
-                            <select class="form-control" style="margin-bottom: 20px;" required>
+
+                            <input type="email" name="email" class="form-control" placeholder="Email"
+                                style="margin-bottom: 20px;" required>
+
+                            <select name="language" class="form-control" style="margin-bottom: 20px;" required>
                                 <option value="" disabled selected>Выберите язык</option>
                                 <option value="en">Английский язык</option>
                                 <option value="de">Немецкий язык</option>
                                 <option value="ru">Русский язык</option>
                             </select>
-                            
-                            <textarea class="form-control" placeholder="Ваше сообщение или вопрос" style="margin-bottom: 25px;"></textarea>
-                            
-                            <button type="submit" class="btn" style="width: 100%;">
+
+                            <textarea name="message" class="form-control" placeholder="Ваше сообщение или вопрос"
+                                style="margin-bottom: 25px;"></textarea>
+
+                            <button type="submit" class="btn" id="contactSubmitBtn" style="width: 100%;">
                                 <i class="fas fa-paper-plane"></i>
                                 Отправить сообщение
                             </button>
-                            <p style="font-size: 14px; color: var(--gray); margin-top: 15px; text-align: center;">
+                            <p id="contactFormPrivacy"
+                                style="font-size: 14px; color: var(--gray); margin-top: 15px; text-align: center;">
                                 Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности
                             </p>
                         </form>
@@ -2229,10 +2301,12 @@
         <div class="container">
             <div class="cta animate">
                 <div class="cta-content">
-                    <h2>Попробуйте первый урок бесплатно!</h2>
-                    <p>Определим ваш уровень, поставим цели и составим персональный план обучения. Никаких обязательств после пробного урока.</p>
-                    
-                    <a href="#contact" class="btn">
+                    <h2 id="ctaTitle">Попробуйте первый урок бесплатно!</h2>
+                    <p id="ctaDesc">Определим ваш уровень, поставим цели и составим персональный план обучения. Никаких
+                        обязательств
+                        после пробного урока.</p>
+
+                    <a href="#contact" class="btn" id="ctaBtn">
                         <i class="fas fa-calendar-check"></i>
                         Записаться на бесплатный урок
                     </a>
@@ -2254,24 +2328,27 @@
                                 <span class="logo-online">Online Learning</span>
                                 <span class="logo-tm">TM</span>
                             </div>
-                            <div class="logo-tagline">Speed. Speech. Success</div>
+                            <div class="logo-tagline" id="footerLogoTagline">Speed. Speech. Success</div>
                         </div>
                     </a>
-                    <p style="color: #aaa; margin-bottom: 25px;">Разговорные курсы английского, немецкого и русского языка для жителей Туркменистана. Говорите свободно с нами!</p>
-                    
-                    <div class="footer-newsletter">
-                        <p style="color: #aaa; margin-bottom: 15px;">Подпишитесь на новости и акции</p>
+                    <p id="footerDescription" style="color: #aaa; margin-bottom: 25px;">Разговорные курсы английского,
+                        немецкого и русского
+                        языка для жителей Туркменистана. Говорите свободно с нами!</p>
+
+                    <div class="footer-col footer-newsletter">
+                        <p id="newsletterText" style="color: #aaa; margin-bottom: 15px;">Подпишитесь на новости и акции
+                        </p>
                         <form class="newsletter-form">
-                            <input type="email" placeholder="Ваш email" required>
+                            <input type="email" placeholder="Ваш email" id="newsletterEmail" required>
                             <button type="submit" class="btn" style="padding: 15px 25px;">
                                 <i class="fas fa-paper-plane"></i>
                             </button>
                         </form>
                     </div>
                 </div>
-                
+
                 <div class="footer-col">
-                    <h3>Курсы</h3>
+                    <h3 id="footerCoursesTitle">Курсы</h3>
                     <ul class="footer-links">
                         <li><a href="#languages"><i class="fas fa-chevron-right"></i> Английский язык</a></li>
                         <li><a href="#languages"><i class="fas fa-chevron-right"></i> Немецкий язык</a></li>
@@ -2281,9 +2358,9 @@
                         <li><a href="#trial"><i class="fas fa-chevron-right"></i> Пробный урок</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-col">
-                    <h3>Компания</h3>
+                    <h3 id="footerCompanyTitle">Компания</h3>
                     <ul class="footer-links">
                         <li><a href="#"><i class="fas fa-chevron-right"></i> О нас</a></li>
                         <li><a href="#"><i class="fas fa-chevron-right"></i> Преподаватели</a></li>
@@ -2293,18 +2370,22 @@
                         <li><a href="#contact"><i class="fas fa-chevron-right"></i> Контакты</a></li>
                     </ul>
                 </div>
-                
+
                 <div class="footer-col">
-                    <h3>Контакты</h3>
+                    <h3 id="footerContactTitle">Контакты</h3>
                     <ul class="footer-links">
-                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> Туркменистан, Ашхабад</a></li>
-                        <li><a href="https://instagram.com/shemspeak" target="_blank"><i class="fab fa-instagram"></i> shemspeak</a></li>
-                        <li><a href="https://wa.me/99362430662" target="_blank"><i class="fab fa-whatsapp"></i> +99362430662</a></li>
-                        <li><a href="mailto:hello@orbislingua.tm"><i class="fas fa-envelope"></i> infoshemspeak@gmail.com</a></li>
+                        <li><a href="#"><i class="fas fa-map-marker-alt"></i> <span id="footerAddressText">Туркменистан,
+                                    Ашхабад</span></a></li>
+                        <li><a href="https://instagram.com/shemspeak" target="_blank"><i class="fab fa-instagram"></i>
+                                <span id="footerInstagramText">shemspeak</span></a></li>
+                        <li><a href="https://wa.me/99362430662" target="_blank"><i class="fab fa-whatsapp"></i>
+                                <span id="footerWhatsappText">+99362430662</span></a></li>
+                        <li><a href="mailto:infoshemspeak@gmail.com"><i class="fas fa-envelope"></i>
+                                <span id="footerEmailText">infoshemspeak@gmail.com</span></a></li>
                     </ul>
                 </div>
             </div>
-            
+
 
             <div class="copyright">
                 <div>&copy; 2026 ShemSpeak Online Learning TM. Все права защищены.</div>
@@ -2317,392 +2398,21 @@
         </div>
     </footer>
 
+    <script src="js/translations.js"></script>
     <script>
+        const translations = window.translations;
         // Language switcher functionality
         const languageSwitcher = document.getElementById('languageSwitcher');
         const languageOptions = document.querySelectorAll('.language-option');
-        
-        languageSwitcher.addEventListener('click', function(e) {
+
+        languageSwitcher.addEventListener('click', function (e) {
             e.stopPropagation();
             this.classList.toggle('active');
         });
-        
-        document.addEventListener('click', function() {
+
+        document.addEventListener('click', function () {
             languageSwitcher.classList.remove('active');
         });
-        
-        // Language data for 3 languages
-        const translations = {
-            ru: {
-                // Header
-                navLanguages: "Языки",
-                navCourses: "Курсы",
-                navCalculator: "Калькулятор",
-                navFeatures: "Преимущества",
-                navContact: "Контакты",
-                trialButton: "Бесплатный урок",
-                
-                // Hero
-                heroBadge: "Туркменистан, Ашхабад & Онлайн",
-                heroTitle: "Заговори свободно ",
-                heroHighlight: "уже через 3 месяца",
-                heroDescription: "Разговорные курсы английского, немецкого и русского с носителями и местными преподавателями. 100% практика, гибкое расписание.",
-                startFree: "Начать бесплатно",
-                viewCourses: "Смотреть курсы",
-                studentsTalked: "учеников заговорили",
-                support24: "поддержка в WhatsApp",
-                satisfiedStudents: "довольных студентов",
-                
-                // Languages
-                languagesSubtitle: "Выбери свой язык",
-                languagesTitle: "Начни говорить свободно на любом языке",
-                languagesDescription: "Мы специализируемся на разговорной практике. Не просто грамматика, а живое общение с первого урока.",
-                
-                englishTitle: "Английский язык",
-                englishSubtitle: "Для работы, путешествий и общения",
-                englishFeature1: "Уровни: от A1 до C2",
-                englishFeature2: "Носители из США и Великобритании",
-                englishFeature3: "Business English и подготовка к IELTS",
-                englishFeature4: "Современный жилой язык",
-                startLearning: "Начать учить",
-                
-                germanTitle: "Немецкий язык",
-                germanSubtitle: "Для учёбы и работы в Германии",
-                germanFeature1: "Уровни: от A1 до B2+",
-                germanFeature2: "Преподаватели из Германии",
-                germanFeature3: "Подготовка к Goethe-Zertifikat",
-                germanFeature4: "Немецкий для IT-специалистов",
-                
-                russianTitle: "Русский язык",
-                russianSubtitle: "Для работы, путешествий и общения",
-                russianFeature1: "Уровни: от 0 до C1",
-                russianFeature2: "Фокус на разговорной практике",
-                russianFeature3: "Русский для бизнеса и общения",
-                russianFeature4: "Подготовка к ТРКИ",
-                
-                // Calculator
-                calculatorSubtitle: "Персональный расчёт",
-                calculatorTitle: "Калькулятор прогресса",
-                calculatorDescription: "Ответьте на 3 вопроса и узнайте, когда вы заговорите свободно",
-                calculatorHeading: "Рассчитайте свой прогресс",
-                calculatorSubheading: "Выберите язык, ваш текущий уровень и цель обучения",
-                languageQuestion: "Какой язык хотите изучать?",
-                levelQuestion: "Ваш текущий уровень?",
-                goalQuestion: "Ваша цель?",
-                calculateButton: "Рассчитать мой прогресс",
-                resultTitle: "Ваш персональный план",
-                resultText: "Для достижения цели",
-                resultText2: "на уровне",
-                resultText3: "по",
-                resultText4: "языку:",
-                resultDuration: "при занятиях 3 раза в неделю по 60 минут с преподавателем ShemSpeak Online Learning TM",
-                startTraining: "Начать обучение",
-                
-                // Features
-                featuresSubtitle: "Наши преимущества",
-                featuresTitle: "Почему выбирают ShemSpeak Online Learning TM",
-                featuresDescription: "Мы создали идеальные условия для быстрого и эффективного изучения языков",
-                feature1Title: "100% разговорная практика",
-                feature1Desc: "80% урока - это живое общение. Говорите с первого занятия, даже если знаете только 10 слов.",
-                feature2Title: "Носители + местные преподаватели",
-                feature2Desc: "Комбинация дает лучший результат: понимание менталитета + идеальное произношение.",
-                feature3Title: "Гибкое расписание",
-                feature3Desc: "Занимайтесь утром, днем или вечером. Подберем время под ваш ритм жизни.",
-                
-                // Contact
-                contactSubtitle: "Свяжитесь с нами",
-                contactTitle: "Контакты",
-                contactDescription: "Мы всегда рады помочь вам начать путь к свободному владению языком",
-                contactHeading: "Свяжитесь с нами",
-                contactSubheading: "Есть вопросы? Хотите записаться на пробный урок? Мы всегда на связи!",
-                addressTitle: "Адрес",
-                address: "Туркменистан, г. Ашхабад",
-                phoneTitle: "Телефон",
-                instagramTitle: "Instagram",
-                whatsappTitle: "WhatsApp",
-                emailTitle: "Email",
-                hoursTitle: "Время работы",
-                hours: "Пн-Сб: 9:00 - 21:00\nВс: 10:00 - 18:00",
-                messageTitle: "Свяжитесь с нами",
-                messageSubheading: "Заполните форму, и мы свяжемся с вами в течение 30 минут",
-                namePlaceholder: "Ваше имя",
-                phonePlaceholder: "Телефон",
-                emailPlaceholder: "Email",
-                languageSelect: "Выберите язык",
-                messagePlaceholder: "Ваше сообщение или вопрос",
-                sendButton: "Отправить сообщение",
-                privacyText: "Нажимая кнопку, вы соглашаетесь с политикой конфиденциальности",
-                
-                // CTA
-                ctaTitle: "Попробуйте первый урок бесплатно!",
-                ctaDescription: "Определим ваш уровень, поставим цели и составим персональный план обучения. Никаких обязательств после пробного урока.",
-                ctaButton: "Записаться на бесплатный урок",
-                
-                // Footer
-                newsletterText: "Подпишитесь на новости и акции",
-                emailPlaceholderFooter: "Ваш email",
-                coursesTitle: "Курсы",
-                companyTitle: "Компания",
-                aboutUs: "О нас",
-                teachers: "Преподаватели",
-                reviews: "Отзывы",
-                blog: "Блог",
-                faq: "FAQ",
-                contacts: "Контакты",
-                copyright: "Все права защищены.",
-                privacy: "Политика конфиденциальности",
-                agreement: "Договор-оферта",
-                sitemap: "Карта сайта"
-            },
-            
-            en: {
-                // Header
-                navLanguages: "Languages",
-                navCourses: "Courses",
-                navCalculator: "Calculator",
-                navFeatures: "Benefits",
-                navContact: "Contact",
-                trialButton: "Free Lesson",
-                
-                // Hero
-                heroBadge: "Turkmenistan, Ashgabat & Online",
-                heroTitle: "Speak Fluently ",
-                heroHighlight: "in Just 3 Months",
-                heroDescription: "Conversational courses in English, German and Russian with native and local teachers. 100% practice, flexible schedule.",
-                startFree: "Start Free",
-                viewCourses: "View Courses",
-                studentsTalked: "students speaking",
-                support24: "24/7 WhatsApp support",
-                satisfiedStudents: "satisfied students",
-                
-                // Languages
-                languagesSubtitle: "Choose Your Language",
-                languagesTitle: "Start Speaking Any Language Fluently",
-                languagesDescription: "We specialize in conversation practice. Not just grammar, but live communication from the first lesson.",
-                
-                englishTitle: "English Language",
-                englishSubtitle: "For work, travel and communication",
-                englishFeature1: "Levels: from A1 to C2",
-                englishFeature2: "Native speakers from USA and UK",
-                englishFeature3: "Business English and IELTS preparation",
-                englishFeature4: "Modern living language",
-                startLearning: "Start Learning",
-                
-                germanTitle: "German Language",
-                germanSubtitle: "For study and work in Germany",
-                germanFeature1: "Levels: from A1 to B2+",
-                germanFeature2: "Teachers from Germany",
-                germanFeature3: "Goethe-Zertifikat preparation",
-                germanFeature4: "German for IT specialists",
-                
-                russianTitle: "Russian Language",
-                russianSubtitle: "For work, travel and communication",
-                russianFeature1: "Levels: from 0 to C1",
-                russianFeature2: "Focus on conversation practice",
-                russianFeature3: "Russian for business and communication",
-                russianFeature4: "TRKI preparation",
-                
-                // Calculator
-                calculatorSubtitle: "Personal Calculation",
-                calculatorTitle: "Progress Calculator",
-                calculatorDescription: "Answer 3 questions and find out when you'll speak fluently",
-                calculatorHeading: "Calculate Your Progress",
-                calculatorSubheading: "Select language, your current level and learning goal",
-                languageQuestion: "What language do you want to learn?",
-                levelQuestion: "Your current level?",
-                goalQuestion: "Your goal?",
-                calculateButton: "Calculate My Progress",
-                resultTitle: "Your Personal Plan",
-                resultText: "To achieve the goal of",
-                resultText2: "at level",
-                resultText3: "in",
-                resultText4: "language:",
-                resultDuration: "with 3 sessions per week of 60 minutes with ShemSpeak Online Learning TM teacher",
-                startTraining: "Start Training",
-                
-                // Features
-                featuresSubtitle: "Our Benefits",
-                featuresTitle: "Why Choose ShemSpeak Online Learning TM",
-                featuresDescription: "We've created perfect conditions for fast and effective language learning",
-                feature1Title: "100% Conversation Practice",
-                feature1Desc: "80% of the lesson is live communication. Speak from the first class, even if you know only 10 words.",
-                feature2Title: "Native + Local Teachers",
-                feature2Desc: "The combination gives the best result: understanding mentality + perfect pronunciation.",
-                feature3Title: "Flexible Schedule",
-                feature3Desc: "Study in the morning, afternoon or evening. We'll find time that fits your lifestyle.",
-                feature4Title: "Result Guarantee",
-                feature4Desc: "If you don't speak in 3 months - we'll refund your money or add free lessons.",
-                
-                // Contact
-                contactSubtitle: "Contact Us",
-                contactTitle: "Contacts",
-                contactDescription: "We're always happy to help you start your journey to language fluency",
-                contactHeading: "Contact Us",
-                contactSubheading: "Have questions? Want to book a trial lesson? We're always available!",
-                addressTitle: "Address",
-                address: "Turkmenistan, Ashgabat",
-                phoneTitle: "Phone",
-                instagramTitle: "Instagram",
-                whatsappTitle: "WhatsApp",
-                emailTitle: "Email",
-                hoursTitle: "Working Hours",
-                hours: "Mon-Sat: 9:00 - 21:00\nSun: 10:00 - 18:00",
-                messageTitle: "Send a Message",
-                messageSubheading: "Fill out the form and we'll contact you within 30 minutes",
-                namePlaceholder: "Your Name",
-                phonePlaceholder: "Phone",
-                emailPlaceholder: "Email",
-                languageSelect: "Select Language",
-                messagePlaceholder: "Your message or question",
-                sendButton: "Send Message",
-                privacyText: "By clicking the button, you agree to the privacy policy",
-                
-                // CTA
-                ctaTitle: "Try Your First Lesson for Free!",
-                ctaDescription: "We'll determine your level, set goals and create a personal learning plan. No obligations after the trial lesson.",
-                ctaButton: "Book a Free Lesson",
-                
-                // Footer
-                newsletterText: "Subscribe to news and promotions",
-                emailPlaceholderFooter: "Your email",
-                coursesTitle: "Courses",
-                companyTitle: "Company",
-                aboutUs: "About Us",
-                teachers: "Teachers",
-                reviews: "Reviews",
-                blog: "Blog",
-                faq: "FAQ",
-                contacts: "Contacts",
-                copyright: "All rights reserved.",
-                privacy: "Privacy Policy",
-                agreement: "User Agreement",
-                sitemap: "Sitemap"
-            },
-            
-            tk: {
-                // Header
-                navLanguages: "Diller",
-                navCourses: "Kurslar",
-                navCalculator: "Kalkulýator",
-                navFeatures: "Üstünlikler",
-                navContact: "Habarlaşmak",
-                trialButton: "Mugt sapak",
-                
-                // Hero
-                heroBadge: "Türkmenistan, Aşgabat & Onlaýn",
-                heroTitle: "Erkin gepleşiň ",
-                heroHighlight: "diňe 3 aýyň içinde",
-                heroDescription: "Iňlis, nemes we rus dillerinde esaslandyryjy we ýerli mugallymlar bilen gepleşik kurslary. 100% täjribe, esnek grafiki we netijä göz ýetirilýär.",
-                startFree: "Mugt başlaň",
-                viewCourses: "Kurslara serediň",
-                studentsTalked: "okuwçy gepleşýär",
-                support24: "24/7 WhatsApp goldawy",
-                satisfiedStudents: "kanagatlanýan okuwçy",
-                
-                // Languages
-                languagesSubtitle: "Diliňizi saýlaň",
-                languagesTitle: "Islendik dilde erkin gepleşmäge başlaň",
-                languagesDescription: "Biz gepleşik täjribesinde ihtisaslaşýarys. Diňe grammatika däl, eýsem ilkinji sapakdan ýaňy gepleşik.",
-                
-                englishTitle: "Iňlis Dili",
-                englishSubtitle: "Iş, syýahat we habarlaşmak üçin",
-                englishFeature1: "Sewiýeler: A1-den C2-ä çenli",
-                englishFeature2: "ABŞ we Beýik Britaniýadan esaslandyryjylar",
-                englishFeature3: "Business English we IELTS taýýarlygy",
-                englishFeature4: "Häzirki zaman ýaşaýyş dili",
-                startLearning: "Öwrenmäge başlaň",
-                
-                germanTitle: "Nemes Dili",
-                germanSubtitle: "Germaniýada okamak we işlemek üçin",
-                germanFeature1: "Sewiýeler: A1-den B2+-a çenli",
-                germanFeature2: "Germaniýadan mugallymlar",
-                germanFeature3: "Goethe-Zertifikat taýýarlygy",
-                germanFeature4: "IT hünärmenleri üçin nemes dili",
-                
-                russianTitle: "Rus Dili",
-                russianSubtitle: "Iş, syýahat we habarlaşmak üçin",
-                russianFeature1: "Sewiýeler: 0-dan C1-e çenli",
-                russianFeature2: "Gepleşik täjribesine üns beriň",
-                russianFeature3: "Iş we gepleşik üçin rus dili",
-                russianFeature4: "TRKI taýýarlygy",
-                
-                // Calculator
-                calculatorSubtitle: "Şahsy hasaplama",
-                calculatorTitle: "Ösüş kalkulýatory",
-                calculatorDescription: "3 sorağa jogap beriň we näçe wagtdan soň erkin gepleşjekdigiňizi bilersiňiz",
-                calculatorHeading: "Ösüşiňizi hasaplaň",
-                calculatorSubheading: "Dili, häzirki sewiýeňizi we öwrenmek maksadyňyzy saýlaň",
-                languageQuestion: "Haysy dili öwrenmek isleýärsiňiz?",
-                levelQuestion: "Häzirki sewiýeňiz?",
-                goalQuestion: "Maksadyňyz?",
-                calculateButton: "Ösüşimi hasaplaň",
-                resultTitle: "Şahsy meýilnamyňyz",
-                resultText: "Maksada ýetmek üçin",
-                resultText2: "sewiýesinde",
-                resultText3: "dilinde",
-                resultText4: "dili:",
-                resultDuration: "ShemSpeak Online Learning TM mugallymy bilen hepdede 3 sapak 60 minutdan",
-                startTraining: "Okuwa başlaň",
-                
-                // Features
-                featuresSubtitle: "Bizim üstünliklerimiz",
-                featuresTitle: "Näme üçin ShemSpeak Online Learning TM saýlanmaly",
-                featuresDescription: "Çalt we netijeli dil öwrenmek üçin ideal şertleri döretdik",
-                feature1Title: "100% gepleşik täjribesi",
-                feature1Desc: "Sapagyň 80% - bu ýaşaýyş habarlaşmagy. Diňe 10 söz bilensiňizem ilkinji sapakdan gepleşiň.",
-                feature2Title: "Esaslandyryjy + ýerli mugallymlar",
-                feature2Desc: "Bilelikde iň gowy netijäni berýär: mentaliteti düşünmek + ideal aýdylş.",
-                feature3Title: "Esnek grafik",
-                feature3Desc: "Ertir, günortan ýa-da agşam okalyň. Durmuş tarzyňyza laýyk wagty taparys.",
-                feature4Title: "Netijä göz ýetirilýär",
-                feature4Desc: "3 aýdan soň gepleşmeseňiz - puluňyzy yzyna gaýtararys ýa-da mugt sapaklar goşarys.",
-                
-                // Contact
-                contactSubtitle: "Biz bilen habarlaşyň",
-                contactTitle: "Habarlaşmak",
-                contactDescription: "Dil bilen erkin hereket etmek ýoluna başlamaga kömek etmäge hemişe şat",
-                contactHeading: "Biz bilen habarlaşyň",
-                contactSubheading: "Soraglaryňyz barmy? Mugt sapak ýazdyrmak isleýärsiňizmi? Biz hemişe elýeterli!",
-                addressTitle: "Salgysy",
-                address: "Türkmenistan, Aşgabat",
-                phoneTitle: "Telefon",
-                instagramTitle: "Instagram",
-                whatsappTitle: "WhatsApp",
-                emailTitle: "E-poçta",
-                hoursTitle: "Iş wagty",
-                hours: "Du-Şen: 9:00 - 21:00\nÝek: 10:00 - 18:00",
-                messageTitle: "Hat iberiň",
-                messageSubheading: "Formany dolduryň we 30 minut içinde siz bilen habarlaşarys",
-                namePlaceholder: "Adyňyz",
-                phonePlaceholder: "Telefon",
-                emailPlaceholder: "E-poçta",
-                languageSelect: "Dili saýlaň",
-                messagePlaceholder: "Hat ýa-da soragyňyz",
-                sendButton: "Hat iberiň",
-                privacyText: "Düwmäni basmak bilen gizlinlik syýasatyna razylaşýarsyňyz",
-                
-                // CTA
-                ctaTitle: "Ilkinji sapagyňyzy mugt synaň!",
-                ctaDescription: "Sewiýeňizi anyklarys, maksatlary belgiläris we şahsy okatma meýilnamasyny dörederis. Mugt sapakdan soň ygtyýar ýok.",
-                ctaButton: "Mugt sapaga ýazyl",
-                
-                // Footer
-                newsletterText: "Täzelikler we aksiýalar üçin ýazylyň",
-                emailPlaceholderFooter: "E-poçtaňyz",
-                coursesTitle: "Kurslar",
-                companyTitle: "Kompaniýa",
-                aboutUs: "Biz barada",
-                teachers: "Mugallymlar",
-                reviews: "Synlar",
-                blog: "Blog",
-                faq: "Sorag-Jogap",
-                contacts: "Habarlaşmak",
-                copyright: "Ähli hukuklar goralan.",
-                privacy: "Gizlinlik syýasaty",
-                agreement: "Ulanyjy şertnamasy",
-                sitemap: "Saýt kartasy"
-            }
-        };
 
         // Current language
         let currentLang = 'ru';
@@ -2711,12 +2421,12 @@
         function changeLanguage(lang) {
             currentLang = lang;
             const t = translations[lang];
-            
+
             // Update language switcher
             // Update language switcher flag and text
             const currentFlag = document.getElementById('currentFlag');
             const currentSpan = document.querySelector('.language-current span');
-            
+
             if (lang === 'ru') {
                 if (currentFlag) currentFlag.src = 'src/ru.png';
                 if (currentSpan) currentSpan.textContent = 'RU';
@@ -2727,174 +2437,235 @@
                 if (currentFlag) currentFlag.src = 'src/tkm.png';
                 if (currentSpan) currentSpan.textContent = 'TK';
             }
-            
-            // Update flag icons in dropdown
-            const flagIcons = document.querySelectorAll('.language-dropdown .flag-icon');
-            if (flagIcons.length >= 3) {
-                if (lang === 'ru') {
-                    flagIcons[0].src = 'src/ru.png';
-                    flagIcons[1].src = 'src/eng.png';
-                    flagIcons[2].src = 'src/tkm.png';
-                } else if (lang === 'en') {
-                    flagIcons[0].src = 'src/ru.png';
-                    flagIcons[1].src = 'src/eng.png';
-                    flagIcons[2].src = 'src/tkm.png';
-                } else if (lang === 'tk') {
-                    flagIcons[0].src = 'src/ru.png';
-                    flagIcons[1].src = 'src/eng.png';
-                    flagIcons[2].src = 'src/tkm.png';
-                }
-            }
-            
+
+            // Update logos tagline
+            const logoTagline = document.getElementById('logoTagline');
+            if (logoTagline) logoTagline.textContent = t.logoTagline;
+            const footerLogoTagline = document.getElementById('footerLogoTagline');
+            if (footerLogoTagline) footerLogoTagline.textContent = t.logoTagline;
+
             // Update navigation
             const navLinks = document.querySelectorAll('.nav-links a');
             navLinks[0].textContent = t.navCourses;
             navLinks[1].textContent = t.navCalculator;
             navLinks[2].textContent = t.navFeatures;
             navLinks[3].textContent = t.navContact;
-            
+
             // Update trial button
             const trialButton = document.querySelector('a.btn-accent[href="#trial"]');
             if (trialButton) {
                 trialButton.innerHTML = `<i class="fas fa-calendar-check"></i> <span>${t.trialButton}</span>`;
             }
-            
+
             // Update hero section
-            document.querySelector('.hero-badge').innerHTML = `<i class="fas fa-map-marker-alt"></i> ${t.heroBadge}`;
-            document.querySelector('.hero h1').innerHTML = `${t.heroTitle}<span class="highlight">${t.heroHighlight}</span>`;
-            document.querySelector('.hero p').textContent = t.heroDescription;
-            document.querySelector('.hero-buttons .btn').innerHTML = `<i class="fas fa-play-circle"></i> ${t.startFree}`;
-            document.querySelector('.hero-buttons .btn-outline').innerHTML = `<i class="fas fa-book-open"></i> ${t.viewCourses}`;
-            document.querySelectorAll('.stat-text')[0].textContent = t.studentsTalked;
-            document.querySelectorAll('.stat-text')[1].textContent = t.support24;
-            document.querySelectorAll('.stat-text')[2].textContent = t.satisfiedStudents;
-            
+            const heroBadge = document.querySelector('.hero-badge');
+            if (heroBadge) heroBadge.innerHTML = `<i class="fas fa-map-marker-alt"></i> ${t.heroBadge}`;
+            if (document.getElementById('heroTitle')) document.getElementById('heroTitle').innerHTML = `${t.heroTitle}<span class="highlight">${t.heroHighlight}</span>`;
+            if (document.getElementById('heroDesc')) document.getElementById('heroDesc').textContent = t.heroDescription;
+            if (document.getElementById('heroStartBtn')) document.getElementById('heroStartBtn').innerHTML = `<i class="fas fa-play-circle"></i> ${t.startFree}`;
+            if (document.getElementById('heroCoursesBtn')) document.getElementById('heroCoursesBtn').innerHTML = `<i class="fas fa-book-open"></i> ${t.viewCourses}`;
+
+            if (document.getElementById('statStudents')) document.getElementById('statStudents').textContent = t.studentsTalked;
+            if (document.getElementById('statSupport')) document.getElementById('statSupport').textContent = t.support24;
+            if (document.getElementById('statSatisfied')) document.getElementById('statSatisfied').textContent = t.satisfiedStudents;
+
+            if (document.getElementById('float1Title')) document.getElementById('float1Title').textContent = t.heroOverlay1Title;
+            if (document.getElementById('float1Desc')) document.getElementById('float1Desc').textContent = t.heroOverlay1Text;
+            if (document.getElementById('float2Title')) document.getElementById('float2Title').textContent = t.heroOverlay2Title;
+            if (document.getElementById('float2Desc')) document.getElementById('float2Desc').textContent = t.heroOverlay2Text;
+
             // Update languages section
-            document.querySelector('.section-title .subtitle').textContent = t.languagesSubtitle;
-            document.querySelectorAll('.section-title h2')[0].textContent = t.languagesTitle;
-            document.querySelectorAll('.section-title p')[0].textContent = t.languagesDescription;
-            
+            if (document.getElementById('languagesSubtitle')) document.getElementById('languagesSubtitle').textContent = t.languagesSubtitle;
+            if (document.getElementById('languagesTitle')) document.getElementById('languagesTitle').textContent = t.languagesTitle;
+            if (document.getElementById('languagesDesc')) document.getElementById('languagesDesc').textContent = t.languagesDescription;
+
             // English card
-            document.querySelectorAll('.language-header h3')[0].textContent = t.englishTitle;
-            document.querySelectorAll('.language-header p')[0].textContent = t.englishSubtitle;
-            document.querySelectorAll('.language-features li')[0].innerHTML = `<i class="fas fa-check"></i> ${t.englishFeature1}`;
-            document.querySelectorAll('.language-features li')[1].innerHTML = `<i class="fas fa-check"></i> ${t.englishFeature2}`;
-            document.querySelectorAll('.language-features li')[2].innerHTML = `<i class="fas fa-check"></i> ${t.englishFeature3}`;
-            document.querySelectorAll('.language-features li')[3].innerHTML = `<i class="fas fa-check"></i> ${t.englishFeature4}`;
-            document.querySelectorAll('.btn-accent')[1].innerHTML = `<i class="fas fa-play"></i> ${t.startLearning}`;
-            
+            if (document.getElementById('enCardTitle')) document.getElementById('enCardTitle').textContent = t.englishTitle;
+            if (document.getElementById('enCardSubtitle')) document.getElementById('enCardSubtitle').textContent = t.englishSubtitle;
+            const enFeatures = document.querySelectorAll('.language-card.en .language-features li');
+            if (enFeatures[0]) enFeatures[0].innerHTML = `<i class="fas fa-check"></i> ${t.englishFeature1}`;
+            if (enFeatures[1]) enFeatures[1].innerHTML = `<i class="fas fa-check"></i> ${t.englishFeature2}`;
+            if (enFeatures[2]) enFeatures[2].innerHTML = `<i class="fas fa-check"></i> ${t.englishFeature3}`;
+            if (enFeatures[3]) enFeatures[3].innerHTML = `<i class="fas fa-check"></i> ${t.englishFeature4}`;
+            if (document.getElementById('enCardBtn')) document.getElementById('enCardBtn').innerHTML = `<i class="fas fa-play"></i> ${t.startLearning}`;
+
             // German card
-            document.querySelectorAll('.language-header h3')[1].textContent = t.germanTitle;
-            document.querySelectorAll('.language-header p')[1].textContent = t.germanSubtitle;
-            document.querySelectorAll('.language-features li')[4].innerHTML = `<i class="fas fa-check"></i> ${t.germanFeature1}`;
-            document.querySelectorAll('.language-features li')[5].innerHTML = `<i class="fas fa-check"></i> ${t.germanFeature2}`;
-            document.querySelectorAll('.language-features li')[6].innerHTML = `<i class="fas fa-check"></i> ${t.germanFeature3}`;
-            document.querySelectorAll('.language-features li')[7].innerHTML = `<i class="fas fa-check"></i> ${t.germanFeature4}`;
-            document.querySelectorAll('.btn-accent')[2].innerHTML = `<i class="fas fa-play"></i> ${t.startLearning}`;
-            
+            if (document.getElementById('deCardTitle')) document.getElementById('deCardTitle').textContent = t.germanTitle;
+            if (document.getElementById('deCardSubtitle')) document.getElementById('deCardSubtitle').textContent = t.germanSubtitle;
+            const deFeatures = document.querySelectorAll('.language-card.de .language-features li');
+            if (deFeatures[0]) deFeatures[0].innerHTML = `<i class="fas fa-check"></i> ${t.germanFeature1}`;
+            if (deFeatures[1]) deFeatures[1].innerHTML = `<i class="fas fa-check"></i> ${t.germanFeature2}`;
+            if (deFeatures[2]) deFeatures[2].innerHTML = `<i class="fas fa-check"></i> ${t.germanFeature3}`;
+            if (deFeatures[3]) deFeatures[3].innerHTML = `<i class="fas fa-check"></i> ${t.germanFeature4}`;
+            if (document.getElementById('deCardBtn')) document.getElementById('deCardBtn').innerHTML = `<i class="fas fa-play"></i> ${t.startLearning}`;
+
             // Russian card
-            document.querySelectorAll('.language-header h3')[2].textContent = t.russianTitle;
-            document.querySelectorAll('.language-header p')[2].textContent = t.russianSubtitle;
-            document.querySelectorAll('.language-features li')[8].innerHTML = `<i class="fas fa-check"></i> ${t.russianFeature1}`;
-            document.querySelectorAll('.language-features li')[9].innerHTML = `<i class="fas fa-check"></i> ${t.russianFeature2}`;
-            document.querySelectorAll('.language-features li')[10].innerHTML = `<i class="fas fa-check"></i> ${t.russianFeature3}`;
-            document.querySelectorAll('.language-features li')[11].innerHTML = `<i class="fas fa-check"></i> ${t.russianFeature4}`;
-            document.querySelectorAll('.btn-accent')[3].innerHTML = `<i class="fas fa-play"></i> ${t.startLearning}`;
-            
+            if (document.getElementById('ruCardTitle')) document.getElementById('ruCardTitle').textContent = t.russianTitle;
+            if (document.getElementById('ruCardSubtitle')) document.getElementById('ruCardSubtitle').textContent = t.russianSubtitle;
+            const ruFeatures = document.querySelectorAll('.language-card.ru .language-features li');
+            if (ruFeatures[0]) ruFeatures[0].innerHTML = `<i class="fas fa-check"></i> ${t.russianFeature1}`;
+            if (ruFeatures[1]) ruFeatures[1].innerHTML = `<i class="fas fa-check"></i> ${t.russianFeature2}`;
+            if (ruFeatures[2]) ruFeatures[2].innerHTML = `<i class="fas fa-check"></i> ${t.russianFeature3}`;
+            if (ruFeatures[3]) ruFeatures[3].innerHTML = `<i class="fas fa-check"></i> ${t.russianFeature4}`;
+            if (document.getElementById('ruCardBtn')) document.getElementById('ruCardBtn').innerHTML = `<i class="fas fa-play"></i> ${t.startLearning}`;
+
             // Update calculator section
-            document.querySelectorAll('.section-title .subtitle')[1].textContent = t.calculatorSubtitle;
-            document.querySelectorAll('.section-title h2')[1].textContent = t.calculatorTitle;
-            document.querySelectorAll('.section-title p')[1].textContent = t.calculatorDescription;
-            document.querySelector('.calculator-content h3').textContent = t.calculatorHeading;
-            document.querySelector('.calculator-content p').textContent = t.calculatorSubheading;
-            document.querySelectorAll('.form-group label')[0].textContent = t.languageQuestion;
-            document.querySelectorAll('.form-group label')[1].textContent = t.levelQuestion;
-            document.querySelectorAll('.form-group label')[2].textContent = t.goalQuestion;
-            document.querySelector('#calculateBtn').innerHTML = `<i class="fas fa-calculator"></i> ${t.calculateButton}`;
-            
+            if (document.getElementById('calcSubtitle')) document.getElementById('calcSubtitle').textContent = t.calculatorSubtitle;
+            if (document.getElementById('calcTitle')) document.getElementById('calcTitle').textContent = t.calculatorTitle;
+            if (document.getElementById('calcDesc')) document.getElementById('calcDesc').textContent = t.calculatorDescription;
+            if (document.getElementById('calcHeading')) document.getElementById('calcHeading').textContent = t.calculatorHeading;
+            if (document.getElementById('calcSubheading')) document.getElementById('calcSubheading').textContent = t.calculatorSubheading;
+            if (document.getElementById('calcLangLabel')) document.getElementById('calcLangLabel').textContent = t.languageQuestion;
+            if (document.getElementById('calcLevelLabel')) document.getElementById('calcLevelLabel').textContent = t.levelQuestion;
+            if (document.getElementById('calcGoalLabel')) document.getElementById('calcGoalLabel').textContent = t.goalQuestion;
+            if (document.getElementById('calculateBtn')) document.getElementById('calculateBtn').innerHTML = `<i class="fas fa-calculator"></i> ${t.calculateButton}`;
+
             // Update language options in calculator
             const languageSelect = document.getElementById('language-select');
             if (languageSelect) {
-                languageSelect.innerHTML = '';
-                if (lang === 'ru') {
-                    languageSelect.innerHTML = '<option value="en">Английский язык</option><option value="de">Немецкий язык</option><option value="ru">Русский язык</option>';
-                } else if (lang === 'en') {
-                    languageSelect.innerHTML = '<option value="en">English Language</option><option value="de">German Language</option><option value="ru">Russian Language</option>';
-                } else if (lang === 'tk') {
-                    languageSelect.innerHTML = '<option value="en">Iňlis Dili</option><option value="de">Nemes Dili</option><option value="ru">Rus Dili</option>';
+                languageSelect.innerHTML = `<option value="en">${t.englishTitle}</option><option value="de">${t.germanTitle}</option><option value="ru">${t.russianTitle}</option>`;
+            }
+            const levelSelect = document.getElementById('level-select');
+            if (levelSelect) {
+                levelSelect.innerHTML = `<option value="beginner">${t.levelBeginner}</option><option value="elementary">${t.levelElementary}</option><option value="intermediate">${t.levelIntermediate}</option><option value="upper">${t.levelUpper}</option>`;
+            }
+            const goalSelect = document.getElementById('goal-select');
+            if (goalSelect) {
+                goalSelect.innerHTML = `<option value="travel">${t.goalTravel}</option><option value="work">${t.goalWork}</option><option value="study">${t.goalStudy}</option><option value="immigration">${t.goalImmigration}</option>`;
+            }
+
+            // Contact form: language dropdown options (placeholder already set via form-control[3] option)
+            const contactLangSelect = document.querySelector('#contactForm select[name="language"]');
+            if (contactLangSelect) {
+                const firstOpt = contactLangSelect.querySelector('option[value=""]');
+                contactLangSelect.innerHTML = '';
+                if (firstOpt) {
+                    const placeholder = document.createElement('option');
+                    placeholder.value = '';
+                    placeholder.disabled = true;
+                    placeholder.selected = true;
+                    placeholder.textContent = t.languageSelect;
+                    contactLangSelect.appendChild(placeholder);
                 }
+                ['en', 'de', 'ru'].forEach((val, i) => {
+                    const opt = document.createElement('option');
+                    opt.value = val;
+                    opt.textContent = [t.englishTitle, t.germanTitle, t.russianTitle][i];
+                    contactLangSelect.appendChild(opt);
+                });
             }
-            
-            const calculatorResult = document.querySelector('#calculatorResult h3');
-            if (calculatorResult) {
-                calculatorResult.textContent = t.resultTitle;
-            }
-            
+
+            if (document.getElementById('calcResultHeading')) document.getElementById('calcResultHeading').textContent = t.resultTitle;
+            if (document.getElementById('calcResultDuration')) document.getElementById('calcResultDuration').textContent = t.resultDuration;
+            if (document.getElementById('calcResultBtn')) document.getElementById('calcResultBtn').innerHTML = `<i class="fas fa-rocket"></i> ${t.startTraining}`;
+
             // Update features section
-            document.querySelectorAll('.section-title .subtitle')[2].textContent = t.featuresSubtitle;
-            document.querySelectorAll('.section-title h2')[2].textContent = t.featuresTitle;
-            document.querySelectorAll('.section-title p')[2].textContent = t.featuresDescription;
-            document.querySelectorAll('.feature-card h3')[0].textContent = t.feature1Title;
-            document.querySelectorAll('.feature-card p')[0].textContent = t.feature1Desc;
-            document.querySelectorAll('.feature-card h3')[1].textContent = t.feature2Title;
-            document.querySelectorAll('.feature-card p')[1].textContent = t.feature2Desc;
-            document.querySelectorAll('.feature-card h3')[2].textContent = t.feature3Title;
-            document.querySelectorAll('.feature-card p')[2].textContent = t.feature3Desc;
-            
+            if (document.getElementById('featuresSubtitle')) document.getElementById('featuresSubtitle').textContent = t.featuresSubtitle;
+            if (document.getElementById('featuresTitle')) document.getElementById('featuresTitle').textContent = t.featuresTitle;
+            if (document.getElementById('featuresDescription')) document.getElementById('featuresDescription').textContent = t.featuresDescription;
+
+            const featureCards = document.querySelectorAll('#features .feature-card');
+            if (featureCards[0]) {
+                featureCards[0].querySelector('h3').textContent = t.feature1Title;
+                featureCards[0].querySelector('p').textContent = t.feature1Desc;
+            }
+            if (featureCards[1]) {
+                featureCards[1].querySelector('h3').textContent = t.feature2Title;
+                featureCards[1].querySelector('p').textContent = t.feature2Desc;
+            }
+            if (featureCards[2]) {
+                featureCards[2].querySelector('h3').textContent = t.feature3Title;
+                featureCards[2].querySelector('p').textContent = t.feature3Desc;
+            }
+            if (featureCards[3]) {
+                featureCards[3].querySelector('h3').textContent = t.feature4Title;
+                featureCards[3].querySelector('p').textContent = t.feature4Desc;
+            }
+
             // Update contact section
-            document.querySelectorAll('.section-title .subtitle')[3].textContent = t.contactSubtitle;
-            document.querySelectorAll('.section-title h2')[3].textContent = t.contactTitle;
-            document.querySelectorAll('.section-title p')[3].textContent = t.contactDescription;
-            document.querySelector('.contact-info h2').textContent = t.contactHeading;
-            document.querySelector('.contact-info p').textContent = t.contactSubheading;
-            document.querySelectorAll('.contact-details h4')[0].textContent = t.addressTitle;
-            document.querySelectorAll('.contact-details p')[0].textContent = t.address;
-            document.querySelectorAll('.contact-details h4')[1].textContent = t.phoneTitle;
-            document.querySelectorAll('.contact-details h4')[2].textContent = t.instagramTitle;
-            document.querySelectorAll('.contact-details p')[2].textContent = 'shemspeak';
-            document.querySelectorAll('.contact-details h4')[3].textContent = t.whatsappTitle;
-            document.querySelectorAll('.contact-details p')[3].textContent = '+99362430662';
-            document.querySelectorAll('.contact-details h4')[4].textContent = t.emailTitle;
-            document.querySelectorAll('.contact-details h4')[5].textContent = t.hoursTitle;
-            document.querySelectorAll('.contact-details p')[5].innerHTML = t.hours.replace(/\n/g, '<br>');
-            document.querySelector('.contact-form h3').textContent = t.messageTitle;
-            document.querySelector('.contact-form p').textContent = t.messageSubheading;
-            document.querySelectorAll('.form-control')[0].placeholder = t.namePlaceholder;
-            document.querySelectorAll('.form-control')[1].placeholder = t.phonePlaceholder;
-            document.querySelectorAll('.form-control')[2].placeholder = t.emailPlaceholder;
-            document.querySelectorAll('.form-control')[3].querySelector('option').textContent = t.languageSelect;
-            document.querySelectorAll('.form-control')[4].placeholder = t.messagePlaceholder;
-            document.querySelector('.contact-form .btn').innerHTML = `<i class="fas fa-paper-plane"></i> ${t.sendButton}`;
-            document.querySelector('.contact-form p:last-child').textContent = t.privacyText;
-            
+            if (document.getElementById('contactSubtitle')) document.getElementById('contactSubtitle').textContent = t.contactSubtitle;
+            if (document.getElementById('contactTitle')) document.getElementById('contactTitle').textContent = t.contactTitle;
+            if (document.getElementById('contactDescription')) document.getElementById('contactDescription').textContent = t.contactDescription;
+            if (document.getElementById('contactInfoHeading')) document.getElementById('contactInfoHeading').textContent = t.contactHeading;
+            if (document.getElementById('contactInfoSubheading')) document.getElementById('contactInfoSubheading').textContent = t.contactSubheading;
+
+            // Contact info details (with IDs)
+            if (document.getElementById('addressTitle')) document.getElementById('addressTitle').textContent = t.addressTitle;
+            if (document.getElementById('addressText')) document.getElementById('addressText').textContent = t.address;
+            if (document.getElementById('instagramTitle')) document.getElementById('instagramTitle').textContent = t.instagramTitle;
+            if (document.getElementById('instagramText')) document.getElementById('instagramText').textContent = t.instagram;
+            if (document.getElementById('whatsappTitle')) document.getElementById('whatsappTitle').textContent = t.whatsappTitle;
+            if (document.getElementById('whatsappText1')) document.getElementById('whatsappText1').textContent = t.whatsapp1;
+            if (document.getElementById('whatsappText2')) document.getElementById('whatsappText2').textContent = t.whatsapp2;
+            if (document.getElementById('emailTitle')) document.getElementById('emailTitle').textContent = t.emailTitle;
+            if (document.getElementById('emailText')) document.getElementById('emailText').textContent = t.email;
+            if (document.getElementById('hoursTitle')) document.getElementById('hoursTitle').textContent = t.hoursTitle;
+            if (document.getElementById('hoursText')) document.getElementById('hoursText').innerHTML = t.hours.replace(/\n/g, '<br>');
+
+            if (document.getElementById('contactFormHeading')) document.getElementById('contactFormHeading').textContent = t.messageTitle;
+            if (document.getElementById('contactFormSubheading')) document.getElementById('contactFormSubheading').textContent = t.messageSubheading;
+
+            const contactInputs = document.querySelectorAll('#contactForm .form-control');
+            if (contactInputs[0]) contactInputs[0].placeholder = t.namePlaceholder;
+            if (contactInputs[1]) contactInputs[1].placeholder = t.phonePlaceholder;
+            if (contactInputs[2]) contactInputs[2].placeholder = t.emailPlaceholder;
+            if (contactInputs[3]) {
+                const placeholderOpt = contactInputs[3].querySelector('option');
+                if (placeholderOpt) placeholderOpt.textContent = t.languageSelect;
+            }
+            if (contactInputs[4]) contactInputs[4].placeholder = t.messagePlaceholder;
+
+            if (document.getElementById('contactSubmitBtn')) {
+                document.getElementById('contactSubmitBtn').innerHTML = `<i class="fas fa-paper-plane"></i> ${t.sendButton}`;
+            }
+            if (document.getElementById('contactFormPrivacy')) document.getElementById('contactFormPrivacy').textContent = t.privacyText;
+
             // Update CTA section
-            document.querySelector('.cta h2').textContent = t.ctaTitle;
-            document.querySelector('.cta p').textContent = t.ctaDescription;
-            document.querySelector('.cta .btn').innerHTML = `<i class="fas fa-calendar-check"></i> ${t.ctaButton}`;
-            
+            if (document.getElementById('ctaTitle')) document.getElementById('ctaTitle').textContent = t.ctaTitle;
+            if (document.getElementById('ctaDesc')) document.getElementById('ctaDesc').textContent = t.ctaDescription;
+            if (document.getElementById('ctaBtn')) document.getElementById('ctaBtn').innerHTML = `<i class="fas fa-calendar-check"></i> ${t.ctaButton}`;
+
             // Update footer
-            document.querySelector('.footer-newsletter p').textContent = t.newsletterText;
-            document.querySelector('.newsletter-form input').placeholder = t.emailPlaceholderFooter;
-            document.querySelectorAll('.footer-col h3')[1].textContent = t.coursesTitle;
-            document.querySelectorAll('.footer-col h3')[2].textContent = t.companyTitle;
-            document.querySelectorAll('.footer-links a')[6].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.aboutUs}`;
-            document.querySelectorAll('.footer-links a')[7].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.teachers}`;
-            document.querySelectorAll('.footer-links a')[8].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.reviews}`;
-            document.querySelectorAll('.footer-links a')[9].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.blog}`;
-            document.querySelectorAll('.footer-links a')[10].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.faq}`;
-            document.querySelectorAll('.footer-links a')[11].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.contacts}`;
+            if (document.getElementById('footerDescription')) document.getElementById('footerDescription').textContent = t.footerDescription;
+            if (document.getElementById('newsletterText')) document.getElementById('newsletterText').textContent = t.newsletterText;
+            if (document.getElementById('newsletterEmail')) document.getElementById('newsletterEmail').placeholder = t.emailPlaceholderFooter;
+            if (document.getElementById('footerCoursesTitle')) document.getElementById('footerCoursesTitle').textContent = t.coursesTitle;
+            if (document.getElementById('footerCompanyTitle')) document.getElementById('footerCompanyTitle').textContent = t.companyTitle;
+
+            // Footer links
+            const footerLinksAll = document.querySelectorAll('.footer-links a');
+            if (footerLinksAll[0]) footerLinksAll[0].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.englishTitle}`;
+            if (footerLinksAll[1]) footerLinksAll[1].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.germanTitle}`;
+            if (footerLinksAll[2]) footerLinksAll[2].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.russianTitle}`;
+            if (footerLinksAll[3]) footerLinksAll[3].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.individualLessons}`;
+            if (footerLinksAll[4]) footerLinksAll[4].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.groupLessons}`;
+            if (footerLinksAll[5]) footerLinksAll[5].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.trialLesson}`;
+            if (footerLinksAll[6]) footerLinksAll[6].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.aboutUs}`;
+            if (footerLinksAll[7]) footerLinksAll[7].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.teachers}`;
+            if (footerLinksAll[8]) footerLinksAll[8].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.reviews}`;
+            if (footerLinksAll[9]) footerLinksAll[9].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.blog}`;
+            if (footerLinksAll[10]) footerLinksAll[10].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.faq}`;
+            if (footerLinksAll[11]) footerLinksAll[11].innerHTML = `<i class="fas fa-chevron-right"></i> ${t.contacts}`;
+
+            // Footer contact column
+            if (document.getElementById('footerContactTitle')) document.getElementById('footerContactTitle').textContent = t.contactTitle;
+            if (document.getElementById('footerAddressText')) document.getElementById('footerAddressText').textContent = t.footerAddress;
+            if (document.getElementById('footerInstagramText')) document.getElementById('footerInstagramText').textContent = t.instagram;
+            if (document.getElementById('footerWhatsappText')) document.getElementById('footerWhatsappText').textContent = t.whatsapp1;
+            if (document.getElementById('footerEmailText')) document.getElementById('footerEmailText').textContent = t.email;
+
             document.querySelector('.copyright div:first-child').innerHTML = `&copy; 2026 ShemSpeak Online Learning TM. ${t.copyright}`;
             document.querySelectorAll('.copyright-links a')[0].textContent = t.privacy;
             document.querySelectorAll('.copyright-links a')[1].textContent = t.agreement;
             document.querySelectorAll('.copyright-links a')[2].textContent = t.sitemap;
-            
+
             // Close language switcher
             languageSwitcher.classList.remove('active');
         }
 
         // Add event listeners to language options
         languageOptions.forEach(option => {
-            option.addEventListener('click', function(e) {
+            option.addEventListener('click', function (e) {
                 e.stopPropagation();
                 const lang = this.getAttribute('data-lang');
                 changeLanguage(lang);
@@ -2905,14 +2676,14 @@
         const mobileMenuBtn = document.getElementById('mobileMenuBtn');
         const nav = document.querySelector('nav');
         const navLinks = document.getElementById('navLinks');
-        
+
         if (mobileMenuBtn && nav && navLinks) {
             // Toggle menu on button click
-            mobileMenuBtn.addEventListener('click', function(e) {
+            mobileMenuBtn.addEventListener('click', function (e) {
                 e.stopPropagation();
                 e.preventDefault();
                 const isActive = nav.classList.contains('active');
-                
+
                 if (isActive) {
                     nav.classList.remove('active');
                     mobileMenuBtn.classList.remove('active');
@@ -2921,61 +2692,61 @@
                     mobileMenuBtn.classList.add('active');
                 }
             });
-            
+
             // Smooth scroll for navigation links
             navLinks.querySelectorAll('a[href^="#"]').forEach(link => {
-                link.addEventListener('click', function(e) {
+                link.addEventListener('click', function (e) {
                     const href = this.getAttribute('href');
                     if (href && href !== '#') {
                         const targetId = href.substring(1);
                         const targetElement = document.getElementById(targetId);
                         if (targetElement) {
                             e.preventDefault();
-                            targetElement.scrollIntoView({ 
-                                behavior: 'smooth', 
-                                block: 'start' 
+                            targetElement.scrollIntoView({
+                                behavior: 'smooth',
+                                block: 'start'
                             });
                         }
                     }
                 });
             });
-            
+
             // Prevent menu from closing when clicking inside it
-            nav.addEventListener('click', function(e) {
+            nav.addEventListener('click', function (e) {
                 e.stopPropagation();
             });
-            
+
             // Close mobile menu when clicking outside
-            document.addEventListener('click', function(e) {
-                if (nav.classList.contains('active') && 
-                    !nav.contains(e.target) && 
+            document.addEventListener('click', function (e) {
+                if (nav.classList.contains('active') &&
+                    !nav.contains(e.target) &&
                     !mobileMenuBtn.contains(e.target)) {
                     nav.classList.remove('active');
                     mobileMenuBtn.classList.remove('active');
                 }
             });
-            
+
         }
-        
+
         // Smooth scroll for all navigation links (desktop and mobile)
         document.querySelectorAll('.nav-links a[href^="#"]').forEach(link => {
-            link.addEventListener('click', function(e) {
+            link.addEventListener('click', function (e) {
                 const href = this.getAttribute('href');
                 if (href && href !== '#') {
                     const targetId = href.substring(1);
                     const targetElement = document.getElementById(targetId);
                     if (targetElement) {
                         e.preventDefault();
-                        targetElement.scrollIntoView({ 
-                            behavior: 'smooth', 
-                            block: 'start' 
+                        targetElement.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
                         });
-                        
+
                         // Close mobile menu if open
                         const nav = document.querySelector('nav');
                         const mobileMenuBtn = document.getElementById('mobileMenuBtn');
                         if (nav && nav.classList.contains('active')) {
-                            setTimeout(function() {
+                            setTimeout(function () {
                                 nav.classList.remove('active');
                                 if (mobileMenuBtn) mobileMenuBtn.classList.remove('active');
                             }, 300);
@@ -2986,28 +2757,28 @@
         });
 
         // Calculator functionality
-        document.getElementById('calculateBtn').addEventListener('click', function() {
+        document.getElementById('calculateBtn').addEventListener('click', function () {
             const language = document.getElementById('language-select').value;
             const level = document.getElementById('level-select').value;
             const goal = document.getElementById('goal-select').value;
-            
+
             const languageText = document.getElementById('language-select').options[document.getElementById('language-select').selectedIndex].text;
             const levelText = document.getElementById('level-select').options[document.getElementById('level-select').selectedIndex].text;
             const goalText = document.getElementById('goal-select').options[document.getElementById('goal-select').selectedIndex].text;
-            
+
             // Calculate months based on selections
             let months = 3;
-            
+
             if (level === 'beginner') months = 6;
             else if (level === 'elementary') months = 4;
             else if (level === 'intermediate') months = 3;
             else if (level === 'upper') months = 2;
-            
+
             if (goal === 'work' || goal === 'immigration') months += 1;
-            
+
             // Update result
             const t = translations[currentLang];
-            
+
             // Format language text properly
             let formattedLanguageText = languageText.toLowerCase();
             if (languageText.includes('язык')) {
@@ -3017,43 +2788,43 @@
             } else if (languageText.toLowerCase().includes('dili')) {
                 formattedLanguageText = languageText.toLowerCase().replace(' dili', '');
             }
-            
+
             // Handle specific language names
             if (formattedLanguageText.includes('английский') || formattedLanguageText.includes('english') || formattedLanguageText.includes('iňlis')) {
                 formattedLanguageText = formattedLanguageText.includes('английский') ? 'английскому' : (formattedLanguageText.includes('english') ? 'english' : 'iňlis');
             } else if (formattedLanguageText.includes('немецкий') || formattedLanguageText.includes('german') || formattedLanguageText.includes('nemes')) {
                 formattedLanguageText = formattedLanguageText.includes('немецкий') ? 'немецкому' : (formattedLanguageText.includes('german') ? 'german' : 'nemes');
             } else if (formattedLanguageText.includes('русский') || formattedLanguageText.includes('russian') || formattedLanguageText.includes('rus')) {
-                formattedLanguageText = formattedLanguageText.includes('русский') ? 'русскому' : (formattedLanguageText.includes('russian') ? 'russian' : 'rus');
+                formattedLanguageText = formattedLanguageText.includes('русский') ? 'русскому' : (formattedLanguageText.includes('russian') ? 'russian' : 'russian');
             }
-            
+
             // Format goal text
             let formattedGoalText = goalText.toLowerCase();
-            
+
             // Format level text
             let formattedLevelText = levelText.split(' ')[0];
-            
+
             // Update result value
             document.getElementById('resultValue').textContent = months + ' ' + getMonthWord(months, currentLang);
-            
+
             // Update result text based on language
             const resultPara = document.querySelector('#calculatorResult p');
             if (resultPara) {
                 resultPara.innerHTML = `${t.resultText} <span style="font-weight: 700; color: var(--accent);">${formattedGoalText}</span> ${t.resultText2} <span style="font-weight: 700; color: var(--accent);">${formattedLevelText}</span> ${t.resultText3} <span style="font-weight: 700; color: var(--accent);">${formattedLanguageText}</span> ${t.resultText4}`;
             }
-            
+
             // Update duration text
             const durationPara = document.querySelector('#calculatorResult p:last-child');
             if (durationPara && durationPara !== resultPara) {
                 durationPara.textContent = t.resultDuration;
             }
-            
+
             // Update start training button
             const resultBtn = document.querySelector('#calculatorResult .btn');
             if (resultBtn) {
                 resultBtn.innerHTML = `<i class="fas fa-rocket"></i> ${t.startTraining}`;
             }
-            
+
             // Show result
             const calculatorResult = document.getElementById('calculatorResult');
             if (calculatorResult) {
@@ -3074,27 +2845,54 @@
             }
         }
 
-        // Form submissions
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
+        // Form submissions — автоматическая отправка на infoshemspeak@gmail.com через Formspree
+        // Получите бесплатный Form ID на https://formspree.io (укажите email: infoshemspeak@gmail.com)
+        const FORMSPREE_ID = 'xgolkpko';
+        document.getElementById('contactForm').addEventListener('submit', function (e) {
             e.preventDefault();
+            const form = this;
+            const btn = form.querySelector('button[type="submit"]');
+            const btnText = btn.innerHTML;
             const t = translations[currentLang];
-            alert(currentLang === 'ru' ? 'Спасибо за сообщение! Мы свяжемся с вами в течение 30 минут.' :
-                currentLang === 'en' ? 'Thank you for your message! We will contact you within 30 minutes.' :
-                'Hat üçin sag boluň! 30 minut içinde siz bilen habarlaşarys.');
-            this.reset();
+            const msgSending = t.msgSending;
+            const msgSuccess = t.msgSuccess;
+            const msgError = t.msgError;
+            if (FORMSPREE_ID === 'YOUR_FORMSPREE_ID') {
+                alert(t.formspreeSetup);
+                return;
+            }
+            btn.disabled = true;
+            btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> ' + msgSending;
+            fetch('https://formspree.io/f/' + FORMSPREE_ID, {
+                method: 'POST',
+                body: new FormData(form),
+                headers: { 'Accept': 'application/json' }
+            })
+                .then(function (r) { return r.json(); })
+                .then(function (data) {
+                    if (data.ok) {
+                        alert(msgSuccess);
+                        form.reset();
+                    } else {
+                        alert(msgError);
+                    }
+                })
+                .catch(function () { alert(msgError); })
+                .finally(function () {
+                    btn.disabled = false;
+                    btn.innerHTML = btnText;
+                });
         });
 
-        document.querySelector('.newsletter-form').addEventListener('submit', function(e) {
+        document.querySelector('.newsletter-form').addEventListener('submit', function (e) {
             e.preventDefault();
             const t = translations[currentLang];
-            alert(currentLang === 'ru' ? 'Спасибо за подписку!' :
-                currentLang === 'en' ? 'Thank you for subscribing!' :
-                'Ýazylmagyňyz üçin sag boluň!');
+            alert(t.subscribeSuccess);
             this.reset();
         });
 
         // Header scroll effect
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             const header = document.getElementById('header');
             if (window.scrollY > 50) {
                 header.classList.add('scrolled');
@@ -3126,17 +2924,17 @@
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                
+
                 const targetId = this.getAttribute('href');
                 if (targetId === '#') return;
-                
+
                 const targetElement = document.querySelector(targetId);
                 if (targetElement) {
                     window.scrollTo({
                         top: targetElement.offsetTop - 80,
                         behavior: 'smooth'
                     });
-                    
+
                     // Close mobile menu if open
                     if (window.innerWidth <= 992) {
                         const nav = document.querySelector('nav');
@@ -3149,10 +2947,10 @@
         });
 
         // Set active nav link on scroll
-        window.addEventListener('scroll', function() {
+        window.addEventListener('scroll', function () {
             const sections = document.querySelectorAll('section[id]');
             const navLinks = document.querySelectorAll('.nav-links a');
-            
+
             let current = '';
             sections.forEach(section => {
                 const sectionTop = section.offsetTop;
@@ -3161,7 +2959,7 @@
                     current = section.getAttribute('id');
                 }
             });
-            
+
             navLinks.forEach(link => {
                 link.classList.remove('active');
                 if (link.getAttribute('href') === `#${current}`) {
@@ -3171,4 +2969,5 @@
         });
     </script>
 </body>
+
 </html>
