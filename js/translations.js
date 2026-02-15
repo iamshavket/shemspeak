@@ -287,7 +287,7 @@ window.translations = {
         navLanguages: "Diller",
         navCourses: "Kurslar",
         navCalculator: "Kalkulýator",
-        navFeatures: "Üstünlikler",
+        navFeatures: "Aýratynlygymyz",
         navContact: "Habarlaşmak",
         trialButton: "Mugt sapak",
 
@@ -353,7 +353,7 @@ window.translations = {
         resultDuration: "ShemSpeak Online Learning mugallymy bilen hepdede 3 sapak 60 minutdan",
         startTraining: "Okuwa başlaň",
 
-        featuresSubtitle: "Bizim üstünliklerimiz",
+        featuresSubtitle: "Biziň aýratynlygymyz",
         featuresTitle: "Näme üçin ShemSpeak Online Learning saýlanmaly",
         featuresDescription: "Çalt we netijeli dil öwrenmek üçin ideal şertleri döretdik",
         feature1Title: "100% gepleşik täjribesi",
