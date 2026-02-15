@@ -206,17 +206,21 @@
         .logo-content {
             display: flex;
             flex-direction: column;
-            line-height: 1.2;
+            line-height: 1.1;
         }
 
         .logo-text {
             font-family: 'Montserrat', sans-serif;
             font-weight: 900;
-            font-size: 26px;
-            line-height: 1;
+            font-size: 24px;
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+        }
+
+        .logo-main {
             display: flex;
             align-items: baseline;
-            flex-wrap: wrap;
             gap: 4px;
         }
 
@@ -230,28 +234,24 @@
 
         .logo-online {
             color: #FFFFFF;
-            font-size: 20px;
-            font-weight: 600;
-            margin-left: 4px;
+            font-size: 18px;
+            font-weight: 500;
+            margin-top: -2px;
+            letter-spacing: 0.2px;
         }
 
         .logo-tm {
-            font-size: 14px;
-            background: #A6FF00;
-            color: #0F3D2E;
-            padding: 4px 8px;
-            border-radius: 6px;
-            margin-left: 6px;
-            font-weight: 700;
+            display: none;
         }
 
         .logo-tagline {
             font-family: 'Inter', sans-serif;
-            font-size: 14px;
+            font-size: 11px;
             color: #CFCFCF;
             font-weight: 400;
             margin-top: 4px;
             letter-spacing: 0.5px;
+            line-height: 1.2;
         }
 
         .logo-icon {
@@ -1870,9 +1870,10 @@
                 <img src="src/logo.png" alt="ShemSpeak Logo" class="logo-icon-image">
                 <div class="logo-content">
                     <div class="logo-text">
-                        <span class="logo-shem">Shem</span><span class="logo-speak">Speak</span>
-                        <span class="logo-online">Online Learning</span>
-                        <span class="logo-tm">TM</span>
+                        <div class="logo-main">
+                            <span class="logo-shem">Shem</span><span class="logo-speak">Speak</span>
+                        </div>
+                        <span class="logo-online">Online learning</span>
                     </div>
                     <div class="logo-tagline" id="logoTagline">Speed. Speech. Success</div>
                 </div>
@@ -2324,9 +2325,10 @@
                         <img src="src/logo.png" alt="ShemSpeak Logo" class="logo-icon-image">
                         <div class="logo-content">
                             <div class="logo-text">
-                                <span class="logo-shem">Shem</span><span class="logo-speak">Speak</span>
-                                <span class="logo-online">Online Learning</span>
-                                <span class="logo-tm">TM</span>
+                                <div class="logo-main">
+                                    <span class="logo-shem">Shem</span><span class="logo-speak">Speak</span>
+                                </div>
+                                <span class="logo-online">Online learning</span>
                             </div>
                             <div class="logo-tagline" id="footerLogoTagline">Speed. Speech. Success</div>
                         </div>
